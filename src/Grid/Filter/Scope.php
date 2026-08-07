@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Grid\Filter;
+namespace Encore\Admin\Grid\Filter;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

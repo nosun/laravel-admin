@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Filter\Layout;
+namespace Encore\Admin\Grid\Filter\Layout;
 
-use Ladmin\Grid\Filter\AbstractFilter;
+use Encore\Admin\Grid\Filter\AbstractFilter;
 use Illuminate\Support\Collection;
 
 class Column

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Filter\Presenter;
+namespace Encore\Admin\Grid\Filter\Presenter;
 
-use Ladmin\Grid\Filter\AbstractFilter;
+use Encore\Admin\Grid\Filter\AbstractFilter;
 
 abstract class Presenter
 {

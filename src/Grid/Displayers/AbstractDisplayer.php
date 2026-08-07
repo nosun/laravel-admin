@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Grid\Displayers;
+namespace Encore\Admin\Grid\Displayers;
 
-use Ladmin\Grid;
-use Ladmin\Grid\Column;
+use Encore\Admin\Grid;
+use Encore\Admin\Grid\Column;
 use Illuminate\Database\Eloquent\Model;
 
 abstract class AbstractDisplayer

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Actions;
+namespace Encore\Admin\Actions;
 
-use Ladmin\Admin;
-use Ladmin\Form\Field;
+use Encore\Admin\Admin;
+use Encore\Admin\Form\Field;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Form;
+namespace Encore\Admin\Form;
 
-use Ladmin\Facades\Admin;
+use Encore\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Tools;
+namespace Encore\Admin\Grid\Tools;
 
-use Ladmin\Grid\Column;
+use Encore\Admin\Grid\Column;
 use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;

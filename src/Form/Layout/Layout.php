@@ -4,9 +4,9 @@
  * Copyright (c) 2019. Mallto.Co.Ltd.<mall-to.com> All rights reserved.
  */
 
-namespace Ladmin\Form\Layout;
+namespace Encore\Admin\Form\Layout;
 
-use Ladmin\Form;
+use Encore\Admin\Form;
 use Illuminate\Support\Collection;
 
 class Layout

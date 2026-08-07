@@ -1,10 +1,10 @@
 <?php
 
-namespace Ladmin\Actions\Interactor;
+namespace Encore\Admin\Actions\Interactor;
 
-use Ladmin\Actions\RowAction;
-use Ladmin\Admin;
-use Ladmin\Form\Field;
+use Encore\Admin\Actions\RowAction;
+use Encore\Admin\Admin;
+use Encore\Admin\Form\Field;
 use Illuminate\Http\Request;
 use Illuminate\Support\MessageBag;
 use Illuminate\Validation\ValidationException;

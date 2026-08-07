@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Middleware;
+namespace Encore\Admin\Middleware;
 
 use Closure;
-use Ladmin\Facades\Admin;
+use Encore\Admin\Facades\Admin;
 use Illuminate\Http\Request;
 
 class Bootstrap

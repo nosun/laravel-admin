@@ -1,10 +1,10 @@
 <?php
 
-namespace Ladmin\Form;
+namespace Encore\Admin\Form;
 
-use Ladmin\Admin;
-use Ladmin\Form;
-use Ladmin\Form\Field\Hidden;
+use Encore\Admin\Admin;
+use Encore\Admin\Form;
+use Encore\Admin\Form\Field\Hidden;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;

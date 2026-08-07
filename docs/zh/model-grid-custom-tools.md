@@ -9,8 +9,8 @@
 
 namespace App\Admin\Extensions\Tools;
 
-use Ladmin\Admin;
-use Ladmin\Grid\Tools\AbstractTool;
+use Encore\Admin\Admin;
+use Encore\Admin\Grid\Tools\AbstractTool;
 use Illuminate\Support\Facades\Request;
 
 class UserGender extends AbstractTool
@@ -98,7 +98,7 @@ $grid->tools(function ($tools) {
 
 namespace App\Admin\Extensions\Tools;
 
-use Ladmin\Grid\Tools\BatchAction;
+use Encore\Admin\Grid\Tools\BatchAction;
 
 class ReleasePost extends BatchAction
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Concerns;
+namespace Encore\Admin\Grid\Concerns;
 
-use Ladmin\Grid\Tools\FixColumns;
+use Encore\Admin\Grid\Tools\FixColumns;
 use Illuminate\Support\Collection;
 
 trait CanFixColumns

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Show;
+namespace Encore\Admin\Show;
 
-use Ladmin\Show;
-use Ladmin\Widgets\Carousel;
+use Encore\Admin\Show;
+use Encore\Admin\Widgets\Carousel;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;

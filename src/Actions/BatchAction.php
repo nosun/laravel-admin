@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Actions;
+namespace Encore\Admin\Actions;
 
 use Illuminate\Http\Request;
 

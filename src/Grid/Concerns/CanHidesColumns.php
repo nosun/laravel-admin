@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Grid\Concerns;
+namespace Encore\Admin\Grid\Concerns;
 
-use Ladmin\Grid;
-use Ladmin\Grid\Tools\ColumnSelector;
+use Encore\Admin\Grid;
+use Encore\Admin\Grid\Tools\ColumnSelector;
 use Illuminate\Support\Collection;
 
 trait CanHidesColumns

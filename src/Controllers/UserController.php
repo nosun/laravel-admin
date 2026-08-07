@@ -1,10 +1,10 @@
 <?php
 
-namespace Ladmin\Controllers;
+namespace Encore\Admin\Controllers;
 
-use Ladmin\Form;
-use Ladmin\Grid;
-use Ladmin\Show;
+use Encore\Admin\Form;
+use Encore\Admin\Grid;
+use Encore\Admin\Show;
 use Illuminate\Support\Facades\Hash;
 
 class UserController extends AdminController

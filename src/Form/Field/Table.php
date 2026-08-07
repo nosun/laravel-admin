@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Form\Field;
+namespace Encore\Admin\Form\Field;
 
-use Ladmin\Form\NestedForm;
-use Ladmin\Widgets\Form as WidgetForm;
+use Encore\Admin\Form\NestedForm;
+use Encore\Admin\Widgets\Form as WidgetForm;
 
 class Table extends HasMany
 {

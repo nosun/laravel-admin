@@ -1,5 +1,5 @@
 {
-    "name": "php-panel/laravel-admin",
+    "name": "encore/laravel-admin",
     "description": "laravel admin",
     "type": "library",
     "keywords": [
@@ -12,7 +12,7 @@
         "form",
         "php-panel"
     ],
-    "homepage": "https://github.com/php-panel/laravel-admin",
+    "homepage": "https://github.com/nosun/laravel-admin",
     "license": "Apache-2.0",
     "authors": [
         {
@@ -34,7 +34,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ladmin\\": "src/"
+            "Encore\\Admin\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -59,10 +59,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ladmin\\AdminServiceProvider"
+                "Encore\\Admin\\AdminServiceProvider"
             ],
             "aliases": {
-                "Admin": "Ladmin\\Facades\\Admin"
+                "Admin": "Encore\\Admin\\Facades\\Admin"
             }
         }
     }

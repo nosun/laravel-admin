@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Console;
+namespace Encore\Admin\Console;
 
-use Ladmin\Admin;
+use Encore\Admin\Admin;
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Str;

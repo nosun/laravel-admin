@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Console;
+namespace Encore\Admin\Console;
 
 use Illuminate\Console\Command;
 
@@ -28,7 +28,7 @@ class PublishCommand extends Command
     public function handle()
     {
         $force = $this->option('force');
-        $options = ['--provider' => 'Ladmin\AdminServiceProvider'];
+        $options = ['--provider' => 'Encore\Admin\AdminServiceProvider'];
         if ($force == true) {
             $options['--force'] = true;
         }

@@ -1,10 +1,10 @@
 <?php
 
-namespace Ladmin\Traits;
+namespace Encore\Admin\Traits;
 
-use Ladmin\Form;
-use Ladmin\Grid;
-use Ladmin\Tree;
+use Encore\Admin\Form;
+use Encore\Admin\Grid;
+use Encore\Admin\Tree;
 
 /**
  * @deprecated

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Tools;
+namespace Encore\Admin\Grid\Tools;
 
-use Ladmin\Grid;
+use Encore\Admin\Grid;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Query\Builder;

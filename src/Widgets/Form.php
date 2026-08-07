@@ -1,12 +1,12 @@
 <?php
 
-namespace Ladmin\Widgets;
+namespace Encore\Admin\Widgets;
 
 use Closure;
-use Ladmin\Facades\Admin;
-use Ladmin\Form as BaseForm;
-use Ladmin\Form\Field;
-use Ladmin\Layout\Content;
+use Encore\Admin\Facades\Admin;
+use Encore\Admin\Form as BaseForm;
+use Encore\Admin\Form\Field;
+use Encore\Admin\Layout\Content;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;

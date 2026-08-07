@@ -1,10 +1,10 @@
 <?php
 
-namespace Ladmin\Controllers;
+namespace Encore\Admin\Controllers;
 
-use Ladmin\Facades\Admin;
-use Ladmin\Form;
-use Ladmin\Layout\Content;
+use Encore\Admin\Facades\Admin;
+use Encore\Admin\Form;
+use Encore\Admin\Layout\Content;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;

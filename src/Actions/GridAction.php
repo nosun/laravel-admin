@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Actions;
+namespace Encore\Admin\Actions;
 
-use Ladmin\Grid;
+use Encore\Admin\Grid;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Http\Request;
 

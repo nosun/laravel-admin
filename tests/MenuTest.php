@@ -1,7 +1,7 @@
 <?php
 
-use Ladmin\Auth\Database\Administrator;
-use Ladmin\Auth\Database\Menu;
+use Encore\Admin\Auth\Database\Administrator;
+use Encore\Admin\Auth\Database\Menu;
 
 class MenuTest extends TestCase
 {

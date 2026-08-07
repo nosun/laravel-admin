@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Validation\ValidationException;
-use Ladmin\Form\Field\Image;
+use Encore\Admin\Form\Field\Image;
 
 class ImageUploadSecurityTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Form\Field;
+namespace Encore\Admin\Form\Field;
 
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany as HasManyRelation;

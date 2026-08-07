@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Grid\Displayers;
+namespace Encore\Admin\Grid\Displayers;
 
-use Ladmin\Admin;
-use Ladmin\Grid\Selectable;
+use Encore\Admin\Admin;
+use Encore\Admin\Grid\Selectable;
 
 class BelongsTo extends AbstractDisplayer
 {
@@ -38,7 +38,7 @@ class BelongsTo extends AbstractDisplayer
     {
         if (!class_exists($selectable) || !is_subclass_of($selectable, Selectable::class)) {
             throw new \InvalidArgumentException(
-                "[Class [{$selectable}] must be a sub class of Ladmin\Grid\Selectable"
+                "[Class [{$selectable}] must be a sub class of Encore\Admin\Grid\Selectable"
             );
         }
 

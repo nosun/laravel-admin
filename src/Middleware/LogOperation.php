@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Middleware;
+namespace Encore\Admin\Middleware;
 
-use Ladmin\Auth\Database\OperationLog as OperationLogModel;
-use Ladmin\Facades\Admin;
+use Encore\Admin\Auth\Database\OperationLog as OperationLogModel;
+use Encore\Admin\Facades\Admin;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Widgets;
+namespace Encore\Admin\Widgets;
 
-use Ladmin\Widgets\Navbar\RefreshButton;
+use Encore\Admin\Widgets\Navbar\RefreshButton;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

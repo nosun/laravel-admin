@@ -64,7 +64,7 @@
         });
     };
 
-    @if($relation == \Ladmin\Grid\Displayers\BelongsTo::class)
+    @if($relation == \Encore\Admin\Grid\Displayers\BelongsTo::class)
 
     var selected = null;
 

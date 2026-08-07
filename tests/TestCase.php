@@ -6,8 +6,8 @@ use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use Ladmin\AdminServiceProvider;
-use Ladmin\Facades\Admin;
+use Encore\Admin\AdminServiceProvider;
+use Encore\Admin\Facades\Admin;
 use Laravel\BrowserKitTesting\TestCase as BaseTestCase;
 
 class TestCase extends BaseTestCase
@@ -64,7 +64,7 @@ class TestCase extends BaseTestCase
 
         // Publish assets only once across the entire test run to avoid repeated heavy I/O
         if (!self::$publishedAssets) {
-            $this->artisan('vendor:publish', ['--provider' => 'Ladmin\AdminServiceProvider']);
+            $this->artisan('vendor:publish', ['--provider' => 'Encore\Admin\AdminServiceProvider']);
             self::$publishedAssets = true;
         }
 
@@ -82,9 +82,9 @@ class TestCase extends BaseTestCase
 
         require_once __DIR__ . '/seeds/factory.php';
 
-        //        \Ladmin\Admin::$css = [];
-        //        \Ladmin\Admin::$js = [];
-        //        \Ladmin\Admin::$script = [];
+        //        \Encore\Admin\Admin::$css = [];
+        //        \Encore\Admin\Admin::$js = [];
+        //        \Encore\Admin\Admin::$script = [];
     }
 
     protected function tearDown(): void

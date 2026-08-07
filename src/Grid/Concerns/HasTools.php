@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Grid\Concerns;
+namespace Encore\Admin\Grid\Concerns;
 
 use Closure;
-use Ladmin\Grid\Tools;
+use Encore\Admin\Grid\Tools;
 
 trait HasTools
 {

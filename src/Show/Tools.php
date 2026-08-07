@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Show;
+namespace Encore\Admin\Show;
 
-use Ladmin\Admin;
+use Encore\Admin\Admin;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

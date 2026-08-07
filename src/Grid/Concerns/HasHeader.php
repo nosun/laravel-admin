@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Grid\Concerns;
+namespace Encore\Admin\Grid\Concerns;
 
 use Closure;
-use Ladmin\Grid\Tools\Header;
+use Encore\Admin\Grid\Tools\Header;
 
 trait HasHeader
 {

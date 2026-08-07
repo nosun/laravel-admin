@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Selectable;
+namespace Encore\Admin\Grid\Selectable;
 
-use Ladmin\Grid\Displayers\AbstractDisplayer;
+use Encore\Admin\Grid\Displayers\AbstractDisplayer;
 
 class Checkbox extends AbstractDisplayer
 {

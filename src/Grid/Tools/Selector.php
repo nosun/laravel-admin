@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Grid\Tools;
+namespace Encore\Admin\Grid\Tools;
 
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Arr;

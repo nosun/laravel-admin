@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Displayers;
+namespace Encore\Admin\Grid\Displayers;
 
-use Ladmin\Facades\Admin;
+use Encore\Admin\Facades\Admin;
 
 class Secret extends AbstractDisplayer
 {

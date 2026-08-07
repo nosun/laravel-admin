@@ -19,7 +19,7 @@ $ php artisan migrate
 
 namespace App\Providers;
 
-use Ladmin\Config\Config;
+use Encore\Admin\Config\Config;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider

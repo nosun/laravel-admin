@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Filter;
+namespace Encore\Admin\Grid\Filter;
 
-use Ladmin\Admin;
+use Encore\Admin\Admin;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

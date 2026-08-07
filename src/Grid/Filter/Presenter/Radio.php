@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Filter\Presenter;
+namespace Encore\Admin\Grid\Filter\Presenter;
 
-use Ladmin\Facades\Admin;
+use Encore\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Arrayable;
 
 class Radio extends Presenter

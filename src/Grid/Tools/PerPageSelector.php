@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Grid\Tools;
+namespace Encore\Admin\Grid\Tools;
 
-use Ladmin\Admin;
-use Ladmin\Grid;
+use Encore\Admin\Admin;
+use Encore\Admin\Grid;
 
 class PerPageSelector extends AbstractTool
 {

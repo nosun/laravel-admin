@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Middleware;
+namespace Encore\Admin\Middleware;
 
 use Illuminate\Http\Request;
 

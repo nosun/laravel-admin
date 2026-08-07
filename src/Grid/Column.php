@@ -1,11 +1,11 @@
 <?php
 
-namespace Ladmin\Grid;
+namespace Encore\Admin\Grid;
 
 use Closure;
-use Ladmin\Actions\RowAction;
-use Ladmin\Grid;
-use Ladmin\Grid\Displayers\AbstractDisplayer;
+use Encore\Admin\Actions\RowAction;
+use Encore\Admin\Grid;
+use Encore\Admin\Grid\Displayers\AbstractDisplayer;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Support\Arr;
@@ -474,7 +474,7 @@ class Column
     public function action($action)
     {
         if (!is_subclass_of($action, RowAction::class)) {
-            throw new \InvalidArgumentException("Action class [$action] must be sub-class of [Ladmin\Actions\GridAction]");
+            throw new \InvalidArgumentException("Action class [$action] must be sub-class of [Encore\Admin\Actions\GridAction]");
         }
 
         $grid = $this->grid;

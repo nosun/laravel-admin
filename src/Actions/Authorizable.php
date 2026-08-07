@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Actions;
+namespace Encore\Admin\Actions;
 
-use Ladmin\Facades\Admin;
+use Encore\Admin\Facades\Admin;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin;
+namespace Encore\Admin;
 
-use Ladmin\Auth\Database\Permission;
+use Encore\Admin\Auth\Database\Permission;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;

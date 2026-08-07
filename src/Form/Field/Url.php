@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Form\Field;
+namespace Encore\Admin\Form\Field;
 
 class Url extends Text
 {

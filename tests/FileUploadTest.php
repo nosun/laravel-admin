@@ -1,6 +1,6 @@
 <?php
 
-use Ladmin\Auth\Database\Administrator;
+use Encore\Admin\Auth\Database\Administrator;
 use Illuminate\Support\Facades\File;
 use Tests\Models\File as FileModel;
 

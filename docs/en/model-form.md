@@ -1,6 +1,6 @@
 # Model-Form
 
-The `Ladmin\Form` class is used to generate a data model-based form. For example, there is a` movies` table in the database
+The `Encore\Admin\Form` class is used to generate a data model-based form. For example, there is a` movies` table in the database
 
 ```sql
 CREATE TABLE `movies` (
@@ -23,8 +23,8 @@ The corresponding data model is `App\Models\Movie`, and the following code can g
 ```php
 
 use App\Models\Movie;
-use Ladmin\Form;
-use Ladmin\Facades\Admin;
+use Encore\Admin\Form;
+use Encore\Admin\Facades\Admin;
 
 $grid = Admin::form(Movie::class, function(Form $grid){
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Tree;
+namespace Encore\Admin\Tree;
 
-use Ladmin\Tree;
+use Encore\Admin\Tree;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Support\Collection;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Grid\Column;
+namespace Encore\Admin\Grid\Column;
 
-use Ladmin\Grid\Column;
-use Ladmin\Grid\Model;
+use Encore\Admin\Grid\Column;
+use Encore\Admin\Grid\Model;
 use Illuminate\Contracts\Support\Htmlable;
 use Illuminate\Contracts\Support\Renderable;
 

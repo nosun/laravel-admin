@@ -1,10 +1,10 @@
 <?php
 
-namespace Ladmin\Grid\Concerns;
+namespace Encore\Admin\Grid\Concerns;
 
-use Ladmin\Grid\Column;
-use Ladmin\Grid\Model;
-use Ladmin\Grid\Tools;
+use Encore\Admin\Grid\Column;
+use Encore\Admin\Grid\Model;
+use Encore\Admin\Grid\Tools;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;

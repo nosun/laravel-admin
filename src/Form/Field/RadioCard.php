@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Form\Field;
+namespace Encore\Admin\Form\Field;
 
-use Ladmin\Admin;
+use Encore\Admin\Admin;
 
 class RadioCard extends RadioButton
 {

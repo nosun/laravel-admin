@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Ladmin\Widgets\StepForm;
+use Encore\Admin\Widgets\StepForm;
 use Illuminate\Http\Request;
 
 class DummyClass extends StepForm

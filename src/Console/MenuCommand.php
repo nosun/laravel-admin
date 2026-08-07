@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Console;
+namespace Encore\Admin\Console;
 
-use Ladmin\Facades\Admin;
+use Encore\Admin\Facades\Admin;
 use Illuminate\Console\Command;
 
 class MenuCommand extends Command

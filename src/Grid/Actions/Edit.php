@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Actions;
+namespace Encore\Admin\Grid\Actions;
 
-use Ladmin\Actions\RowAction;
+use Encore\Admin\Actions\RowAction;
 
 class Edit extends RowAction
 {

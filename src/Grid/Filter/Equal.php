@@ -1,5 +1,5 @@
 <?php
 
-namespace Ladmin\Grid\Filter;
+namespace Encore\Admin\Grid\Filter;
 
 class Equal extends AbstractFilter {}

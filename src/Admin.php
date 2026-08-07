@@ -1,14 +1,14 @@
 <?php
 
-namespace Ladmin;
+namespace Encore\Admin;
 
 use Closure;
 use Composer\InstalledVersions;
-use Ladmin\Auth\Database\Menu;
-use Ladmin\Controllers\AuthController;
-use Ladmin\Layout\Content;
-use Ladmin\Traits\HasAssets;
-use Ladmin\Widgets\Navbar;
+use Encore\Admin\Auth\Database\Menu;
+use Encore\Admin\Controllers\AuthController;
+use Encore\Admin\Layout\Content;
+use Encore\Admin\Traits\HasAssets;
+use Encore\Admin\Widgets\Navbar;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Auth;
@@ -26,7 +26,7 @@ class Admin
      *
      * @var string
      */
-    const PACKAGE_NAME = 'php-panel/laravel-admin';
+    const PACKAGE_NAME = 'encore/laravel-admin';
 
     /**
      * @var Navbar
@@ -87,7 +87,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Ladmin\Grid
+     * @return \Encore\Admin\Grid
      *
      * @deprecated since v1.6.1
      */
@@ -100,7 +100,7 @@ class Admin
      * @param $model
      * @param Closure $callable
      *
-     * @return \Ladmin\Form
+     * @return \Encore\Admin\Form
      *
      *  @deprecated since v1.6.1
      */
@@ -115,7 +115,7 @@ class Admin
      * @param $model
      * @param Closure|null $callable
      *
-     * @return \Ladmin\Tree
+     * @return \Encore\Admin\Tree
      */
     public function tree($model, ?Closure $callable = null)
     {
@@ -140,7 +140,7 @@ class Admin
     /**
      * @param Closure $callable
      *
-     * @return \Ladmin\Layout\Content
+     * @return \Encore\Admin\Layout\Content
      *
      * @deprecated since v1.6.1
      */
@@ -287,7 +287,7 @@ class Admin
     /**
      * Get navbar object.
      *
-     * @return \Ladmin\Widgets\Navbar
+     * @return \Encore\Admin\Widgets\Navbar
      */
     public function getNavbar()
     {
@@ -325,7 +325,7 @@ class Admin
         app('router')->group($attributes, function ($router) {
 
             /* @var \Illuminate\Support\Facades\Route $router */
-            $router->namespace('\Ladmin\Controllers')->group(function ($router) {
+            $router->namespace('\Encore\Admin\Controllers')->group(function ($router) {
 
                 /* @var \Illuminate\Routing\Router $router */
                 $router->resource('auth/users', 'UserController')->names('admin.auth.users');

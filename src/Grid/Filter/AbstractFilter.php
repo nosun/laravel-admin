@@ -1,15 +1,15 @@
 <?php
 
-namespace Ladmin\Grid\Filter;
+namespace Encore\Admin\Grid\Filter;
 
-use Ladmin\Grid\Filter;
-use Ladmin\Grid\Filter\Presenter\Checkbox;
-use Ladmin\Grid\Filter\Presenter\DateTime;
-use Ladmin\Grid\Filter\Presenter\MultipleSelect;
-use Ladmin\Grid\Filter\Presenter\Presenter;
-use Ladmin\Grid\Filter\Presenter\Radio;
-use Ladmin\Grid\Filter\Presenter\Select;
-use Ladmin\Grid\Filter\Presenter\Text;
+use Encore\Admin\Grid\Filter;
+use Encore\Admin\Grid\Filter\Presenter\Checkbox;
+use Encore\Admin\Grid\Filter\Presenter\DateTime;
+use Encore\Admin\Grid\Filter\Presenter\MultipleSelect;
+use Encore\Admin\Grid\Filter\Presenter\Presenter;
+use Encore\Admin\Grid\Filter\Presenter\Radio;
+use Encore\Admin\Grid\Filter\Presenter\Select;
+use Encore\Admin\Grid\Filter\Presenter\Text;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

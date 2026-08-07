@@ -1,6 +1,6 @@
 <?php
 
-use Ladmin\Auth\Database\Administrator;
+use Encore\Admin\Auth\Database\Administrator;
 
 class IndexTest extends TestCase
 {

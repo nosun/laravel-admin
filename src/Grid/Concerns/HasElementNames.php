@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Grid\Concerns;
+namespace Encore\Admin\Grid\Concerns;
 
 trait HasElementNames
 {

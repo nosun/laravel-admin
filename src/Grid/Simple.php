@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid;
+namespace Encore\Admin\Grid;
 
-use Ladmin\Grid;
+use Encore\Admin\Grid;
 use Illuminate\Contracts\Support\Renderable;
 
 /**

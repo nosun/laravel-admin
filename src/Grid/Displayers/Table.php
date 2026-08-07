@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Grid\Displayers;
+namespace Encore\Admin\Grid\Displayers;
 
 use Illuminate\Support\Arr;
 

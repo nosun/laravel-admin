@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Concerns;
+namespace Encore\Admin\Grid\Concerns;
 
-use Ladmin\Admin;
+use Encore\Admin\Admin;
 
 trait CanFixHeader
 {

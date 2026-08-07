@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Form;
+namespace Encore\Admin\Form;
 
-use Ladmin\Form;
-use Ladmin\Widgets\Form as WidgetForm;
+use Encore\Admin\Form;
+use Encore\Admin\Widgets\Form as WidgetForm;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 

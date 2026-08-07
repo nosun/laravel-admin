@@ -1,13 +1,13 @@
 <?php
 
-namespace Ladmin\Controllers;
+namespace Encore\Admin\Controllers;
 
-use Ladmin\Form;
-use Ladmin\Layout\Column;
-use Ladmin\Layout\Content;
-use Ladmin\Layout\Row;
-use Ladmin\Tree;
-use Ladmin\Widgets\Box;
+use Encore\Admin\Form;
+use Encore\Admin\Layout\Column;
+use Encore\Admin\Layout\Content;
+use Encore\Admin\Layout\Row;
+use Encore\Admin\Tree;
+use Encore\Admin\Widgets\Box;
 use Illuminate\Routing\Controller;
 
 class MenuController extends Controller
@@ -30,7 +30,7 @@ class MenuController extends Controller
                 $row->column(6, $this->treeView()->render());
 
                 $row->column(6, function (Column $column) {
-                    $form = new \Ladmin\Widgets\Form();
+                    $form = new \Encore\Admin\Widgets\Form();
                     $form->action(admin_url('auth/menu'));
 
                     $menuModel = config('admin.database.menu_model');
@@ -65,7 +65,7 @@ class MenuController extends Controller
     }
 
     /**
-     * @return \Ladmin\Tree
+     * @return \Encore\Admin\Tree
      */
     protected function treeView()
     {

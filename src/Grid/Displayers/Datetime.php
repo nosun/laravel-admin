@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Displayers;
+namespace Encore\Admin\Grid\Displayers;
 
-use Ladmin\Admin;
+use Encore\Admin\Admin;
 
 class Datetime extends AbstractDisplayer
 {

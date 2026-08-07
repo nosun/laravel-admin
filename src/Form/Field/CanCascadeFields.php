@@ -1,9 +1,9 @@
 <?php
 
-namespace Ladmin\Form\Field;
+namespace Encore\Admin\Form\Field;
 
-use Ladmin\Admin;
-use Ladmin\Form;
+use Encore\Admin\Admin;
+use Encore\Admin\Form;
 use Illuminate\Support\Arr;
 
 /**

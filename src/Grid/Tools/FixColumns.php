@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Tools;
+namespace Encore\Admin\Grid\Tools;
 
-use Ladmin\Grid;
+use Encore\Admin\Grid;
 use Illuminate\Support\Collection;
 
 class FixColumns

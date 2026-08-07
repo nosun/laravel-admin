@@ -1,18 +1,18 @@
 <?php
 
-namespace Ladmin;
+namespace Encore\Admin;
 
 use Closure;
-use Ladmin\Exception\Handler;
-use Ladmin\Form\Builder;
-use Ladmin\Form\Concerns\HandleCascadeFields;
-use Ladmin\Form\Concerns\HasFields;
-use Ladmin\Form\Concerns\HasHooks;
-use Ladmin\Form\Field;
-use Ladmin\Form\Layout\Layout;
-use Ladmin\Form\Row;
-use Ladmin\Form\Tab;
-use Ladmin\Traits\ShouldSnakeAttributes;
+use Encore\Admin\Exception\Handler;
+use Encore\Admin\Form\Builder;
+use Encore\Admin\Form\Concerns\HandleCascadeFields;
+use Encore\Admin\Form\Concerns\HasFields;
+use Encore\Admin\Form\Concerns\HasHooks;
+use Encore\Admin\Form\Field;
+use Encore\Admin\Form\Layout\Layout;
+use Encore\Admin\Form\Row;
+use Encore\Admin\Form\Tab;
+use Encore\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Database\Eloquent\Model;
@@ -1424,7 +1424,7 @@ class Form implements Renderable
      *
      * @param Closure $callback
      *
-     * @return \Ladmin\Form\Footer
+     * @return \Encore\Admin\Form\Footer
      */
     public function footer(?Closure $callback = null)
     {

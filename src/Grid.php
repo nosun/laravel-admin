@@ -1,16 +1,16 @@
 <?php
 
-namespace Ladmin;
+namespace Encore\Admin;
 
 use Closure;
-use Ladmin\Exception\Handler;
-use Ladmin\Grid\Column;
-use Ladmin\Grid\Concerns;
-use Ladmin\Grid\Displayers;
-use Ladmin\Grid\Model;
-use Ladmin\Grid\Row;
-use Ladmin\Grid\Tools;
-use Ladmin\Traits\ShouldSnakeAttributes;
+use Encore\Admin\Exception\Handler;
+use Encore\Admin\Grid\Column;
+use Encore\Admin\Grid\Concerns;
+use Encore\Admin\Grid\Displayers;
+use Encore\Admin\Grid\Model;
+use Encore\Admin\Grid\Row;
+use Encore\Admin\Grid\Tools;
+use Encore\Admin\Traits\ShouldSnakeAttributes;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 use Illuminate\Database\Eloquent\Relations;
 use Illuminate\Support\Collection;
@@ -43,7 +43,7 @@ class Grid
     /**
      * The grid data model instance.
      *
-     * @var \Ladmin\Grid\Model|\Illuminate\Database\Eloquent\Builder
+     * @var \Encore\Admin\Grid\Model|\Illuminate\Database\Eloquent\Builder
      */
     protected $model;
 

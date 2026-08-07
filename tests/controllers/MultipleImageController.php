@@ -2,9 +2,9 @@
 
 namespace Tests\Controllers;
 
-use Ladmin\Controllers\AdminController;
-use Ladmin\Form;
-use Ladmin\Grid;
+use Encore\Admin\Controllers\AdminController;
+use Encore\Admin\Form;
+use Encore\Admin\Grid;
 use Tests\Models\MultipleImage;
 
 class MultipleImageController extends AdminController

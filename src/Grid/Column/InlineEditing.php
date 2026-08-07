@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Column;
+namespace Encore\Admin\Grid\Column;
 
-use Ladmin\Grid\Displayers;
+use Encore\Admin\Grid\Displayers;
 
 trait InlineEditing
 {

@@ -9,10 +9,10 @@
         &nbsp;&nbsp;&nbsp;&nbsp;
 
         @if(config('admin.show_version'))
-        <strong>Version</strong>&nbsp;&nbsp; {!! \Ladmin\Admin::getVersion() !!}
+        <strong>Version</strong>&nbsp;&nbsp; {!! \Encore\Admin\Admin::getVersion() !!}
         @endif
 
     </div>
     <!-- Default to the left -->
-    <strong>Powered by <a href="https://github.com/php-panel/laravel-admin" target="_blank">laravel-admin</a></strong>
+    <strong>Powered by <a href="https://github.com/nosun/laravel-admin" target="_blank">laravel-admin</a></strong>
 </footer>

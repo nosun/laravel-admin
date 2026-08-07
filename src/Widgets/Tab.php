@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Widgets;
+namespace Encore\Admin\Widgets;
 
-use Ladmin\Facades\Admin;
+use Encore\Admin\Facades\Admin;
 use Illuminate\Contracts\Support\Renderable;
 
 class Tab extends Widget implements Renderable

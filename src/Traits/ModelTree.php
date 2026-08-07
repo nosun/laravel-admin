@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Traits;
+namespace Encore\Admin\Traits;
 
-use Ladmin\Tree;
+use Encore\Admin\Tree;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;

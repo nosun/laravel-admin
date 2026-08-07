@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Form;
+namespace Encore\Admin\Form;
 
-use Ladmin\Form;
+use Encore\Admin\Form;
 use Illuminate\Contracts\Support\Renderable;
 
 class Row implements Renderable

@@ -2,10 +2,10 @@
 
 ## Box组件
 
-`Ladmin\Widgets\Box`用来生成box组件：
+`Encore\Admin\Widgets\Box`用来生成box组件：
 
 ```php
-use Ladmin\Widgets\Box;
+use Encore\Admin\Widgets\Box;
 
 $box = new Box('Box标题', 'Box内容');
 
@@ -37,9 +37,9 @@ echo $box;
 
 ## Collapse组件
 
-`Ladmin\Widgets\Collapse`类用来生成折叠插件：
+`Encore\Admin\Widgets\Collapse`类用来生成折叠插件：
 ```php
-use Ladmin\Widgets\Collapse;
+use Encore\Admin\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ echo $collapse->render();
 
 ## 表单
 
-`Ladmin\Widgets\Form`类用来快速构建表单：
+`Encore\Admin\Widgets\Form`类用来快速构建表单：
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox组件
 
-`Ladmin\Widgets\InfoBox`类用来生成信息展示块：
+`Encore\Admin\Widgets\InfoBox`类用来生成信息展示块：
 
 ```php
-use Ladmin\Widgets\InfoBox;
+use Encore\Admin\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024');
 
@@ -101,10 +101,10 @@ echo $infoBox->render();
 
 ## Tab组件
 
-`Ladmin\Widgets\Tab`类用来生成选项卡组件：
+`Encore\Admin\Widgets\Tab`类用来生成选项卡组件：
 
 ```php
-use Ladmin\Widgets\Tab;
+use Encore\Admin\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ echo $tab->render();
 
 ## Table
 
-`Ladmin\Widgets\Table`类用来生成表格：
+`Encore\Admin\Widgets\Table`类用来生成表格：
 
 ```php
-use Ladmin\Widgets\Table;
+use Encore\Admin\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

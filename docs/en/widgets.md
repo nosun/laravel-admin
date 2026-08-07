@@ -2,10 +2,10 @@
 
 ## Box
 
-`Ladmin\Widgets\Box` used to generate box components:
+`Encore\Admin\Widgets\Box` used to generate box components:
 
 ```php
-use Ladmin\Widgets\Box;
+use Encore\Admin\Widgets\Box;
 
 $box = new Box('Box Title', 'Box content');
 
@@ -37,9 +37,9 @@ The `$content` parameter is the content element of the Box, which can be either 
 
 ## Collapse
 
-`Ladmin\Widgets\Collapse` class used to generate folding components:
+`Encore\Admin\Widgets\Collapse` class used to generate folding components:
 ```php
-use Ladmin\Widgets\Collapse;
+use Encore\Admin\Widgets\Collapse;
 
 $collapse = new Collapse();
 
@@ -55,7 +55,7 @@ echo $collapse->render();
 
 ## Form
 
-`Ladmin\Widgets\Form` class is used to quickly build a form:
+`Encore\Admin\Widgets\Form` class is used to quickly build a form:
 
 ```php
 
@@ -86,10 +86,10 @@ echo $form->render();
 
 ## Infobox
 
-`Ladmin\Widgets\InfoBox` class is used to generate the information presentation block:
+`Encore\Admin\Widgets\InfoBox` class is used to generate the information presentation block:
 
 ```php
-use Ladmin\Widgets\InfoBox;
+use Encore\Admin\Widgets\InfoBox;
 
 $infoBox = new InfoBox('New Users', 'users', 'aqua', '/admin/users', '1024');
 
@@ -101,10 +101,10 @@ Refer to the section on the `InfoBox` in the `index()` method of the home page l
 
 ## Tab component
 
-`Ladmin\Widgets\Tab` class is used to generate the tab components:
+`Encore\Admin\Widgets\Tab` class is used to generate the tab components:
 
 ```php
-use Ladmin\Widgets\Tab;
+use Encore\Admin\Widgets\Tab;
 
 $tab = new Tab();
 
@@ -120,10 +120,10 @@ echo $tab->render();
 
 ## Table
 
-`Ladmin\Widgets\Table` class is used to generate tables:
+`Encore\Admin\Widgets\Table` class is used to generate tables:
 
 ```php
-use Ladmin\Widgets\Table;
+use Encore\Admin\Widgets\Table;
 
 // table 1
 $headers = ['Id', 'Email', 'Name', 'Company'];

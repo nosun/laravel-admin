@@ -43,7 +43,7 @@ $grid->actions(function ($actions) {
 
 namespace App\Admin\Extensions;
 
-use Ladmin\Admin;
+use Encore\Admin\Admin;
 
 class CheckRow
 {

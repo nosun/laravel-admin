@@ -1,8 +1,8 @@
 <?php
 
-namespace Ladmin\Grid\Filter\Presenter;
+namespace Encore\Admin\Grid\Filter\Presenter;
 
-use Ladmin\Admin;
+use Encore\Admin\Admin;
 use Illuminate\Support\Arr;
 
 class DateTime extends Presenter

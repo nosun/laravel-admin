@@ -1,6 +1,6 @@
 <?php
 
-namespace Ladmin\Form\Concerns;
+namespace Encore\Admin\Form\Concerns;
 
 use Closure;
 use Illuminate\Support\Arr;
