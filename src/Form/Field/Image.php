@@ -18,7 +18,7 @@ class Image extends File
      *
      * @var string
      */
-    protected $rules = 'image';
+    protected $rules = 'image|mimes:jpg,jpeg,png,gif,webp|extensions:jpg,jpeg,png,gif,webp';
 
     /**
      * @param array|UploadedFile $image
@@ -36,6 +36,7 @@ class Image extends File
         }
 
         $this->name = $this->getStoreName($image);
+        $this->guardAgainstExecutableImageName();
 
         $this->callInterventionMethods($image->getRealPath());
 

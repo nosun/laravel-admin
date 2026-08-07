@@ -18,7 +18,7 @@ class MultipleImage extends MultipleFile
      *
      * @var string
      */
-    protected $rules = 'image';
+    protected $rules = 'image|mimes:jpg,jpeg,png,gif,webp|extensions:jpg,jpeg,png,gif,webp';
 
     /**
      * Prepare for each file.
@@ -30,6 +30,7 @@ class MultipleImage extends MultipleFile
     protected function prepareForeach(?UploadedFile $image = null)
     {
         $this->name = $this->getStoreName($image);
+        $this->guardAgainstExecutableImageName();
 
         $this->callInterventionMethods($image->getRealPath());
 

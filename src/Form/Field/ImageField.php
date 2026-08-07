@@ -3,6 +3,7 @@
 namespace Ladmin\Form\Field;
 
 use Illuminate\Support\Str;
+use Illuminate\Validation\ValidationException;
 use Intervention\Image\Drivers\Gd\Driver as GdDriver;
 use Intervention\Image\Image as InterventionImage;
 use Intervention\Image\ImageManager;
@@ -120,6 +121,27 @@ trait ImageField
         }
 
         return $this;
+    }
+
+    /**
+     * Refuse executable names even when a custom storage name bypasses request validation.
+     *
+     * @throws ValidationException
+     */
+    protected function guardAgainstExecutableImageName(): void
+    {
+        $name = basename((string) $this->name);
+        $isExecutable = preg_match('/(?:^|\.)(?:php\d*|phtm?l?|phar|phps)(?:\.|$)/i', $name) === 1;
+        $isServerConfig = in_array(strtolower($name), ['.htaccess', '.user.ini'], true);
+
+        if ($isExecutable || $isServerConfig) {
+            throw ValidationException::withMessages([
+                $this->column => trans('validation.extensions', [
+                    'attribute' => $this->label,
+                    'values' => 'jpg, jpeg, png, gif, webp',
+                ]),
+            ]);
+        }
     }
 
     /**
